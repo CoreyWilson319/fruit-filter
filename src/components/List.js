@@ -15,7 +15,7 @@ class List extends Component {
 
         return(
             <div>
-                <ul>
+                <ul className="listedFruits">
                     {fruitItems}
                 </ul>
             </div>

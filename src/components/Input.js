@@ -11,7 +11,7 @@ class Input extends Component {
     render() {
         return(
             <div>
-                <label htmlFor="fruit-filter">Filter These Fruits: </label>
+                <label className="filterText" htmlFor="fruit-filter">Filter These Fruits: </label>
                 <input type="text" value={this.props.value} onChange={this.props.onChange}name="fruit-filter" />
             </div>
         );
