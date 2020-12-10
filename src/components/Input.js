@@ -18,4 +18,4 @@ class Input extends Component {
     }
 }
 
-export default Input
+export default Input;
